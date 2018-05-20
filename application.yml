@@ -1,15 +1,15 @@
 spring:
-  profies:
+  profiles:
    active:
    - dev
 ---
 spring:
-  profies: dev   # 开发环境
+  profiles: dev   # 开发环境
   application:
     name: microservicecloud-config-liuxin-dev
 ---
 spring:
-  profies: test   # 测试环境
+  profiles: test   # 测试环境
   application:
     name: microservicecloud-config-liuxin-test
 # 文件的保存形式是UTF-8  ---是分隔符的意思
